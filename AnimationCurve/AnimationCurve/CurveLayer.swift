@@ -20,6 +20,7 @@ class CurveLayer: CALayer {
     fileprivate let arrowAngle = CGFloat(Double.pi)*(60.0/180.0)
     
     override func draw(in ctx: CGContext) {
+        super.draw(in: ctx)
         let path1 = UIBezierPath()
         let path2 = UIBezierPath()
         
